@@ -13,5 +13,5 @@ plt.ylabel('y数值',fontsize=24)
 
 plt.tick_params(axis='both', which='major', labelsize=14)
 #plt.axis([0,1100,0,1100000])
-plt.axis([0, 200, 0, 500])#取值范围要求提供四个值： x 和 y 坐标轴的最小值和最大值
+plt.axis([0, 1000, 0, 1000000])#取值范围要求提供四个值： x 和 y 坐标轴的最小值和最大值
 plt.show()
