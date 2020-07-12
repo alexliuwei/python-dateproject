@@ -19,7 +19,7 @@ with open(filename) as f:
         date_time.append(c_time)
         hihhs.append(int(time[1]))
 
-#fig = plt.figure(dpi=128,figsize=(10,6))
+fig = plt.figure(dpi=128,figsize=(10,6))
 fig = plt.figure(dpi=128, figsize=(10, 6))
 plt.plot(date_time,hihhs,c='red')
 plt.title('daily high temperatures , july 2014 ',fontsize =24)
