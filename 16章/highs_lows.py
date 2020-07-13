@@ -25,5 +25,6 @@ plt.plot(date_time,hihhs,c='red')
 plt.title('daily high temperatures , july 2014 ',fontsize =24)
 plt.xlabel('',fontsize=16)
 fig.autofmt_xdate()
-plt.savefig('ihhs.png')
 plt.show()
+plt.savefig('ihhs.png')
+
