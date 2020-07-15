@@ -15,14 +15,14 @@ with open(file_name,encoding='utf-8') as f:
     print(zhiwu)
 
 
-# #print(zhiwu)
-# for xm,zw in zhiwu.items():
-#     if zw in zhengzhi_name:
-#        zz_name.append(xm)
-#     else:
-#         fz_name.append(xm)
-# print(fz_name)
-# print(zz_name)
+#print(zhiwu)
+for xm,zw in zhiwu.items():
+    if zw in zhengzhi_name:
+       zz_name.append(xm)
+    else:
+        fz_name.append(xm)
+print(fz_name)
+print(zz_name)
 #
 # file_name = '3.txt'
 # with open(file_name,'a') as file_object:
